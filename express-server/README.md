@@ -2,6 +2,10 @@
 
 This is a simple Express server project that listens on port 8001. The server is set up to automatically reload using nodemon during development.
 
+## Migration from Python to Express
+
+This project was migrated from a Python backend to Node.js with Express to improve performance and leverage JavaScript/TypeScript ecosystems. The server maintains the same API endpoints while providing faster response times and better integration with modern development tools.
+
 ## Project Structure
 
 ```
@@ -12,7 +16,7 @@ express-server
 ├── .dockerignore          # Files to ignore when building the Docker image
 ├── .gitignore             # Files to ignore in Git
 ├── package.json           # Project metadata and dependencies
-├── yarn.lock              # Dependency version lock file
+├── package-lock.json      # Dependency version lock file (if generated)
 └── README.md              # Project documentation
 ```
 
@@ -21,7 +25,6 @@ express-server
 ### Prerequisites
 
 - Node.js and npm installed
-- Yarn package manager installed
 
 ### Installation
 
@@ -33,7 +36,7 @@ express-server
 
 2. Install dependencies:
    ```
-   yarn install
+   npm install
    ```
 
 ### Running the Server
@@ -41,7 +44,7 @@ express-server
 To start the server with automatic reloading, use the following command:
 
 ```
-yarn start
+npm start
 ```
 
 The server will be running on [http://localhost:8001](http://localhost:8001).
