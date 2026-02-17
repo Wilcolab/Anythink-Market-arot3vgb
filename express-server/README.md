@@ -16,7 +16,7 @@ express-server
 ├── .dockerignore          # Files to ignore when building the Docker image
 ├── .gitignore             # Files to ignore in Git
 ├── package.json           # Project metadata and dependencies
-├── package-lock.json      # Dependency version lock file (if generated)
+├── package-lock.json      # Dependency version lock file
 └── README.md              # Project documentation
 ```
 
